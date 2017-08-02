@@ -281,7 +281,7 @@ msgid "UnFlag"
 msgstr "Odznačit"
 
 msgid "Login"
-msgstr "Přihlašovací jméno"
+msgstr "Přihlášení"
 
 #, php-format
 msgid "Logged-in as: %s"
