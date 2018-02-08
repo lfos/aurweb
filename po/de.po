@@ -1196,7 +1196,7 @@ msgid "Disable notifications"
 msgstr "Benachrichtigungen deaktivieren"
 
 msgid "Enable notifications"
-msgstr "Benachritigungen aktivieren"
+msgstr "Benachrichtigungen aktivieren"
 
 msgid "Manage Co-Maintainers"
 msgstr "Verwalte Mit-Betreuer"
