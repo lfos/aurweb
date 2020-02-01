@@ -12,6 +12,10 @@
   float: right;
 }
 
+#lang_sub:lang(he-ar-ur-fa) {
+  float: left;
+}
+
 .pkglist-nav .page {
     margin: 0 .25em;
 }
@@ -45,6 +49,10 @@
 	text-align:right;
 }
 
+#pkg-updates td.pkg-date:lang(he-ar-ur-fa) {
+	text-align:left;
+}
+
 .keyword:link, .keyword:visited {
 	float: left;
 	margin: 1px .5ex 1px 0;
@@ -54,6 +62,13 @@
 	border: 1px solid transparent;
 	border-radius: 2px;
 }
+
+.keyword:link:lang(he-ar-ur-fa), .keyword:visited:lang(he-ar-ur-fa) {
+	float: right;
+	margin-right: auto;
+	margin-left: 0.5ex;
+}
+
 
 .keyword:hover {
 	cursor: pointer;
