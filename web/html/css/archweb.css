@@ -62,6 +62,12 @@ ul {
     padding-left: 2em;
 }
 
+ol:lang(he-ar-ur-fa),
+ul:lang(he-ar-ur-fa) {
+    padding-left: auto;
+    padding-right: 2em;
+}
+
     ul {
         list-style: square;
     }
@@ -126,6 +132,10 @@ img {
 /* scale fonts down to a sane default (16 * .812 = 13px) */
 #content {
     font-size: 0.812em;
+}
+
+#content:lang(he-ar-ur-fa) {
+    text-align: right;
 }
 
 /* link style */
@@ -195,6 +205,12 @@ h5 {
     width: 100%; /* req to keep content above sidebar in source code */
 }
 
+#content-left-wrapper:lang(he-ar-ur-fa) {
+    float: right;
+    margin-left: auto;
+    margin-right: -340px;
+}
+
 #content-left {
     margin: 0 340px 0 0;
 }
@@ -203,6 +219,11 @@ h5 {
     float: left;
     width: 300px;
     margin-left: -300px;
+}
+
+#content-right:lang(he-ar-ur-fa) {
+    margin-left: auto;
+    margin-right: -300px;
 }
 
 div.box {
@@ -253,6 +274,12 @@ td {
     white-space: nowrap;
     text-align: left;
 }
+
+th:lang(he-ar-ur-fa),
+td:lang(he-ar-ur-fa) {
+    text-align: right;
+}
+
 
     th {
         vertical-align: middle;
@@ -439,6 +466,10 @@ table thead th.sorter-false {
         padding-bottom: .5em
     }
 
+    #news h3:lang(he-ar-ur-fa) {
+        float: right;
+    }
+
     #news div {
         margin-bottom: 1em;
     }
@@ -468,6 +499,11 @@ table thead th.sorter-false {
         font-size: 0.85em;
         margin: -1.8em 0.5em 0 0;
     }
+
+    #news .timestamp:lang(he-ar-ur-fa) {
+        float: left;
+    }
+
 
 /* home: arrowed headings */
 #news h3 a {
@@ -516,6 +552,10 @@ h3 span.arrow {
         border: 1px solid #09c;
     }
 
+    #pkgsearch input:lang(he-ar-ur-fa) {
+        float: left;
+    }
+
     .pkgsearch-typeahead {
         position: absolute;
         top: 100%;
@@ -556,12 +596,22 @@ h3 span.arrow {
         margin: -2em 0 0 0;
     }
 
+    #pkg-updates .rss-icon:lang(he-ar-ur-fa) {
+        float: left;
+    }
+
+
     #pkg-updates table {
         margin: 0;
     }
 
     #pkg-updates td.pkg-name {
         white-space: normal;
+    }
+
+    #pkg-updates td.pkg-name:lang(he-ar-ur-fa) {
+        direction: ltr;
+        text-align: left;
     }
 
     #pkg-updates td.pkg-arch {
@@ -687,6 +737,10 @@ table.results {
         padding: .3em 1em .3em 3px;
     }
 
+    .results td:lang(he-ar-ur-fa) {
+        direction: ltr;
+    }
+
     .results .flagged {
         color: red;
     }
@@ -709,6 +763,11 @@ table.results {
     float: right;
     margin-top: -2.2em;
 }
+
+#pkglist-results .pkglist-nav:lang(he-ar-ur-fa) {
+    float: left;
+}
+
 
 .pkglist-nav .prev {
     margin-right: 1em;
@@ -734,6 +793,13 @@ table.results {
     font-size: 0.85em;
 }
 
+.filter-criteria div:lang(he-ar-ur-fa) {
+    float: right;
+    margin-right: auto;
+    margin-left: 1.65em;
+}
+
+
 .filter-criteria legend {
     display: none;
 }
@@ -748,6 +814,11 @@ table.results {
 #pkgdetails #detailslinks {
     float: right;
 }
+
+#pkgdetails #detailslinks:lang(he-ar-ur-fa) {
+    float: left;
+}
+
 
     #pkgdetails #detailslinks h4 {
         margin-top: 0;
@@ -782,6 +853,12 @@ table.results {
     #pkgdetails #pkginfo td {
         padding: 0.25em 0 0.25em 1.5em;
     }
+
+    #pkgdetails #pkginfo td:lang(he-ar-ur-fa) {
+        padding-left: auto;
+        padding-right: 1.5em;
+    }
+
 
     #pkgdetails #pkginfo .userdata {
         font-size: 0.85em;
@@ -824,6 +901,11 @@ table.results {
 #pkgdetails #metadata li {
     padding-left: 0.5em;
 }
+
+#pkgdetails #metadata li:lang(he-ar-ur-fa) {
+    direction: ltr;
+}
+
 
 #pkgdetails #metadata p {
     padding-left: 0.5em;
@@ -945,6 +1027,12 @@ table td.country {
             padding-right: 0.5em;
             vertical-align: top;
             white-space: nowrap;
+        }
+
+        .arch-bio-entry table.bio th:lang(he-ar-ur-fa) {
+            text-align: left;
+            padding-right: auto;
+            padding-left: 0.5em;
         }
 
         .arch-bio-entry table.bio td {
