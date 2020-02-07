@@ -12,6 +12,10 @@
   float: right;
 }
 
+#lang_sub:lang(he-ar-ur-fa) {
+  float: left;
+}
+
 .pkglist-nav .page {
     margin: 0 .25em;
 }
@@ -45,6 +49,10 @@
 	text-align:right;
 }
 
+#pkg-updates td.pkg-date:lang(he-ar-ur-fa) {
+	text-align:left;
+}
+
 .keyword:link, .keyword:visited {
 	float: left;
 	margin: 1px .5ex 1px 0;
@@ -54,6 +62,13 @@
 	border: 1px solid transparent;
 	border-radius: 2px;
 }
+
+.keyword:link:lang(he-ar-ur-fa), .keyword:visited:lang(he-ar-ur-fa) {
+	float: right;
+	margin-right: auto;
+	margin-left: 0.5ex;
+}
+
 
 .keyword:hover {
 	cursor: pointer;
@@ -198,4 +213,87 @@ label.confirmation,
 
 .error {
 	color: red;
+}
+
+/* RTL changes that were originally applied to archweb.css */
+
+ol:lang(he-ar-ur-fa),
+ul:lang(he-ar-ur-fa) {
+    padding-left: auto;
+    padding-right: 2em;
+}
+
+#content:lang(he-ar-ur-fa) {
+    text-align: right;
+}
+
+#content-left-wrapper:lang(he-ar-ur-fa) {
+    float: right;
+    margin-left: auto;
+    margin-right: -340px;
+}
+
+#content-right:lang(he-ar-ur-fa) {
+    margin-left: auto;
+    margin-right: -300px;
+}
+
+th:lang(he-ar-ur-fa),
+td:lang(he-ar-ur-fa) {
+    text-align: right;
+}
+
+#news h3:lang(he-ar-ur-fa) {
+    float: right;
+}
+
+#news .timestamp:lang(he-ar-ur-fa) {
+    float: left;
+}
+
+#pkgsearch input:lang(he-ar-ur-fa) {
+    float: left;
+}
+
+#pkg-updates .rss-icon:lang(he-ar-ur-fa) {
+    float: left;
+}
+
+
+#pkg-updates td.pkg-name:lang(he-ar-ur-fa) {
+    direction: ltr;
+    text-align: left;
+}
+
+.results td:lang(he-ar-ur-fa) {
+    direction: ltr;
+}
+
+#pkglist-results .pkglist-nav:lang(he-ar-ur-fa) {
+    float: left;
+}
+
+.filter-criteria div:lang(he-ar-ur-fa) {
+    float: right;
+    margin-right: auto;
+    margin-left: 1.65em;
+}
+
+#pkgdetails #detailslinks:lang(he-ar-ur-fa) {
+    float: left;
+}
+
+#pkgdetails #pkginfo td:lang(he-ar-ur-fa) {
+    padding-left: auto;
+    padding-right: 1.5em;
+}
+
+#pkgdetails #metadata li:lang(he-ar-ur-fa) {
+    direction: ltr;
+}
+
+.arch-bio-entry table.bio th:lang(he-ar-ur-fa) {
+    text-align: left;
+    padding-right: auto;
+    padding-left: 0.5em;
 }
