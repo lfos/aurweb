@@ -12,7 +12,7 @@
   float: right;
 }
 
-#lang_sub:lang(he) #lang_sub:lang(ar) #lang_sub:lang(ur) #lang_sub:lang(fa) {
+#lang_sub:dir(rtl) {
   float: left;
 }
 
@@ -49,7 +49,7 @@
 	text-align:right;
 }
 
-#pkg-updates td.pkg-date:lang(he) td.pkg-date:lang(ar) td.pkg-date:lang(ur) td.pkg-date:lang(fa) {
+#pkg-updates td.pkg-date:dir(rtl) {
 	text-align:left;
 }
 
@@ -63,7 +63,7 @@
 	border-radius: 2px;
 }
 
-.keyword:link:lang(he) .keyword:link:lang(ar) .keyword:link:lang(ur) .keyword:link:lang(fa), .keyword:visited:lang(he) .keyword:visited:lang(ar) .keyword:visited:lang(ur) .keyword:visited:lang(fa) {
+.keyword:link:dir(rtl), .keyword:visited:dir(rtl) {
 	float: right;
 	margin-right: auto;
 	margin-left: 0.5ex;
@@ -217,29 +217,29 @@ label.confirmation,
 
 /* RTL changes that were originally applied to archweb.css */
 
-ol:lang(he) ol:lang(ar) ol:lang(ur) ol:lang(fa),
-ul:lang(he) ul:lang(ar) ul:lang(ur) ul:lang(fa) {
+ol:dir(rtl),
+ul:dir(rtl) {
     padding-left: auto;
     padding-right: 2em;
 }
 
-#content:lang(he) #content:lang(ar) #content:lang(ur) #content:lang(fa) {
+#content:dir(rtl) {
     text-align: right;
 }
 
-#content-left-wrapper:lang(he) #content-left-wrapper:lang(ar) #content-left-wrapper:lang(ur) #content-left-wrapper:lang(fa) {
+#content-left-wrapper:dir(rtl) {
     float: right;
     margin-left: auto;
     margin-right: -340px;
 }
 
-#content-right:lang(he) #content-right:lang(ar) #content-right:lang(ur) #content-right:lang(fa) {
+#content-right:dir(rtl) {
     margin-left: auto;
     margin-right: -300px;
 }
 
-th:lang(he) th:lang(ar) th:lang(ur) th:lang(fa),
-td:lang(he) td:lang(ar) td:lang(ur) td:lang(fa) {
+th:dir(rtl),
+td:dir(rtl) {
     text-align: right;
 }
 
@@ -247,52 +247,52 @@ td:lang(he) td:lang(ar) td:lang(ur) td:lang(fa) {
     float: right;
 }
 
-#news .timestamp:lang(he) .timestamp:lang(ar) .timestamp:lang(ur) .timestamp:lang(fa) {
+#news .timestamp:dir(rtl) {
     float: left;
 }
 
-#pkgsearch input:lang(he) input:lang(ar) input:lang(ur) input:lang(fa) {
+#pkgsearch input:dir(rtl) {
     float: left;
 }
 
-#pkg-updates .rss-icon:lang(he) .rss-icon:lang(ar) .rss-icon:lang(ur) .rss-icon:lang(fa) {
+#pkg-updates .rss-icon:dir(rtl) {
     float: left;
 }
 
 
-#pkg-updates td.pkg-name:lang(he) td.pkg-name:lang(ar) td.pkg-name:lang(ur) td.pkg-name:lang(fa) {
+#pkg-updates td.pkg-name:dir(rtl) {
     direction: ltr;
     text-align: left;
 }
 
-.results td:lang(he) td:lang(ar) td:lang(ur) td:lang(fa) {
+.results td:dir(rtl) {
     direction: ltr;
 }
 
-#pkglist-results .pkglist-nav:lang(he) .pkglist-nav:lang(ar) .pkglist-nav:lang(ur) .pkglist-nav:lang(fa) {
+#pkglist-results .pkglist-nav:dir(rtl) {
     float: left;
 }
 
-.filter-criteria div:lang(he) div:lang(ar) div:lang(ur) div:lang(fa) {
+.filter-criteria div:dir(rtl) {
     float: right;
     margin-right: auto;
     margin-left: 1.65em;
 }
 
-#pkgdetails #detailslinks:lang(he) #detailslinks:lang(ar) #detailslinks:lang(ur) #detailslinks:lang(fa) {
+#pkgdetails #detailslinks:dir(rtl) {
     float: left;
 }
 
-#pkgdetails #pkginfo td:lang(he) td:lang(ar) td:lang(ur) td:lang(fa) {
+#pkgdetails #pkginfo td:dir(rtl) {
     padding-left: auto;
     padding-right: 1.5em;
 }
 
-#pkgdetails #metadata li:lang(he) li:lang(ar) li:lang(ur) li:lang(fa) {
+#pkgdetails #metadata li:dir(rtl) {
     direction: ltr;
 }
 
-.arch-bio-entry table.bio th:lang(he) th:lang(ar) th:lang(ur) th:lang(fa) {
+.arch-bio-entry table.bio th:dir(rtl) {
     text-align: left;
     padding-right: auto;
     padding-left: 0.5em;
