@@ -9,7 +9,7 @@ and installed using the Arch Linux package manager `pacman`.
 The aurweb project includes
 
 * A web interface to search for packaging scripts and display package details.
-* A SSH/Git interface to submit and update packages and package meta data.
+* An SSH/Git interface to submit and update packages and package meta data.
 * Community features such as comments, votes, package flagging and requests.
 * Editing/deletion of packages and accounts by Trusted Users and Developers.
 * Area for Trusted Users to post AUR-related proposals and vote on them.
@@ -38,3 +38,6 @@ Links
 * Questions, comments, and patches related to aurweb can be sent to the AUR
   development mailing list: aur-dev@archlinux.org -- mailing list archives:
   https://mailman.archlinux.org/mailman/listinfo/aur-dev
+
+* Translations are welcome via our Transifex project at the following address:
+  https://www.transifex.com/lfleischer/aurweb
