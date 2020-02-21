@@ -12,7 +12,7 @@
   float: right;
 }
 
-#lang_sub:lang(he-ar-ur-fa) {
+#lang_sub:lang(he) #lang_sub:lang(ar) #lang_sub:lang(ur) #lang_sub:lang(fa) {
   float: left;
 }
 
@@ -49,7 +49,7 @@
 	text-align:right;
 }
 
-#pkg-updates td.pkg-date:lang(he-ar-ur-fa) {
+#pkg-updates td.pkg-date:lang(he) td.pkg-date:lang(ar) td.pkg-date:lang(ur) td.pkg-date:lang(fa) {
 	text-align:left;
 }
 
@@ -63,7 +63,7 @@
 	border-radius: 2px;
 }
 
-.keyword:link:lang(he-ar-ur-fa), .keyword:visited:lang(he-ar-ur-fa) {
+.keyword:link:lang(he) .keyword:link:lang(ar) .keyword:link:lang(ur) .keyword:link:lang(fa), .keyword:visited:lang(he) .keyword:visited:lang(ar) .keyword:visited:lang(ur) .keyword:visited:lang(fa) {
 	float: right;
 	margin-right: auto;
 	margin-left: 0.5ex;
@@ -217,29 +217,29 @@ label.confirmation,
 
 /* RTL changes that were originally applied to archweb.css */
 
-ol:lang(he-ar-ur-fa),
-ul:lang(he-ar-ur-fa) {
+ol:lang(he) ol:lang(ar) ol:lang(ur) ol:lang(fa),
+ul:lang(he) ul:lang(ar) ul:lang(ur) ul:lang(fa) {
     padding-left: auto;
     padding-right: 2em;
 }
 
-#content:lang(he-ar-ur-fa) {
+#content:lang(he) #content:lang(ar) #content:lang(ur) #content:lang(fa) {
     text-align: right;
 }
 
-#content-left-wrapper:lang(he-ar-ur-fa) {
+#content-left-wrapper:lang(he) #content-left-wrapper:lang(ar) #content-left-wrapper:lang(ur) #content-left-wrapper:lang(fa) {
     float: right;
     margin-left: auto;
     margin-right: -340px;
 }
 
-#content-right:lang(he-ar-ur-fa) {
+#content-right:lang(he) #content-right:lang(ar) #content-right:lang(ur) #content-right:lang(fa) {
     margin-left: auto;
     margin-right: -300px;
 }
 
-th:lang(he-ar-ur-fa),
-td:lang(he-ar-ur-fa) {
+th:lang(he) th:lang(ar) th:lang(ur) th:lang(fa),
+td:lang(he) td:lang(ar) td:lang(ur) td:lang(fa) {
     text-align: right;
 }
 
@@ -247,52 +247,52 @@ td:lang(he-ar-ur-fa) {
     float: right;
 }
 
-#news .timestamp:lang(he-ar-ur-fa) {
+#news .timestamp:lang(he) .timestamp:lang(ar) .timestamp:lang(ur) .timestamp:lang(fa) {
     float: left;
 }
 
-#pkgsearch input:lang(he-ar-ur-fa) {
+#pkgsearch input:lang(he) input:lang(ar) input:lang(ur) input:lang(fa) {
     float: left;
 }
 
-#pkg-updates .rss-icon:lang(he-ar-ur-fa) {
+#pkg-updates .rss-icon:lang(he) .rss-icon:lang(ar) .rss-icon:lang(ur) .rss-icon:lang(fa) {
     float: left;
 }
 
 
-#pkg-updates td.pkg-name:lang(he-ar-ur-fa) {
+#pkg-updates td.pkg-name:lang(he) td.pkg-name:lang(ar) td.pkg-name:lang(ur) td.pkg-name:lang(fa) {
     direction: ltr;
     text-align: left;
 }
 
-.results td:lang(he-ar-ur-fa) {
+.results td:lang(he) td:lang(ar) td:lang(ur) td:lang(fa) {
     direction: ltr;
 }
 
-#pkglist-results .pkglist-nav:lang(he-ar-ur-fa) {
+#pkglist-results .pkglist-nav:lang(he) .pkglist-nav:lang(ar) .pkglist-nav:lang(ur) .pkglist-nav:lang(fa) {
     float: left;
 }
 
-.filter-criteria div:lang(he-ar-ur-fa) {
+.filter-criteria div:lang(he) div:lang(ar) div:lang(ur) div:lang(fa) {
     float: right;
     margin-right: auto;
     margin-left: 1.65em;
 }
 
-#pkgdetails #detailslinks:lang(he-ar-ur-fa) {
+#pkgdetails #detailslinks:lang(he) #detailslinks:lang(ar) #detailslinks:lang(ur) #detailslinks:lang(fa) {
     float: left;
 }
 
-#pkgdetails #pkginfo td:lang(he-ar-ur-fa) {
+#pkgdetails #pkginfo td:lang(he) td:lang(ar) td:lang(ur) td:lang(fa) {
     padding-left: auto;
     padding-right: 1.5em;
 }
 
-#pkgdetails #metadata li:lang(he-ar-ur-fa) {
+#pkgdetails #metadata li:lang(he) li:lang(ar) li:lang(ur) li:lang(fa) {
     direction: ltr;
 }
 
-.arch-bio-entry table.bio th:lang(he-ar-ur-fa) {
+.arch-bio-entry table.bio th:lang(he) th:lang(ar) th:lang(ur) th:lang(fa) {
     text-align: left;
     padding-right: auto;
     padding-left: 0.5em;
