@@ -31,6 +31,7 @@ class ProcessExceptions(Exception):
     Compound exception used by stop() to list all the errors that happened when
     terminating child processes.
     """
+
     def __init__(self, message, exceptions):
         self.message = message
         self.exceptions = exceptions
@@ -110,9 +111,7 @@ def start():
 
     # FastAPI
     host, port = aurweb.config.get("fastapi", "bind_address").rsplit(":", 1)
-    spawn_child(["python", "-m", "uvicorn",
-                 "--host", host,
-                 "--port", port,
+    spawn_child(["python", "-m", "hypercorn", "-b", f"{host}:{port}",
                  "aurweb.asgi:app"])
 
     # nginx
